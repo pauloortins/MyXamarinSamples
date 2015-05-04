@@ -2,14 +2,14 @@
 
 using Xamarin.Forms;
 
-namespace MasterDetail
+namespace ListViewSample
 {
 	public class App : Application
 	{
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new AlabamaPlacesPage();
+			MainPage = new GroupingListViewPage();
 		}
 
 		protected override void OnStart ()
